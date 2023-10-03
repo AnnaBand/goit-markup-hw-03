@@ -1,0 +1,162 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --modal-overlay-color: #2E2F4266;
+    --hero-background-color: #2E2F42B2;
+    --white-background-color: #FFFFFF;
+    --modal-background-color: #FCFCFC;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   color: var(--text-color);
+   background-color: var(--white-background-color);
+}
+
+.nav-links .link {
+        color: var(--dark-color);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+
+.address-links .link {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.address-links .link:hover,
+.address-links .link:focus,
+.address-links .link:active,
+.nav-links .link:hover,
+.nav-links .link:focus,
+.nav-links .link:active {
+    color: var(--pressed-state-color)
+}
+
+.address {
+    font-style: normal;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.filter-button {
+    background-color: var(--light-color);
+        color: var(--primary-brand-color);
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+}
+
+.filter-buttonone {
+    background-color: var(--primary-brand-color);
+        color: var(--white-background-color);
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+}
+
+.filter-button:hover,
+.filter-button:focus,
+.filter-buttonone:hover,
+.filter-buttonone:focus {
+    background-color: var(--pressed-state-color);
+    color: var(--white-background-color);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.logo {
+    color: var(--primary-brand-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-span {
+    color: var(--dark-color);
+}
+
+.logo-spantwo {
+    color: var(--light-color)
+}
+
+.title-background {
+    background-color: var(--dark-color);
+}
+
+.title {
+    color: var(--white-background-color);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.team-background {
+    background-color: var(--light-color);
+}
+
+.headertwo {
+    color: var(--dark-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.headerthree {
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.card-background {
+    background-color: var(--white-background-color);
+}
+
+.footer-description {
+    color: var(--light-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer-background {
+    background-color: var(--dark-color);
+}
