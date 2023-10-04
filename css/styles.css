@@ -25,6 +25,7 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        padding: 24px 0;
 }
 
 .address-links .link {
@@ -95,12 +96,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-
+    margin-right: 76px;
 }
 
 .logo-span {
     color: var(--dark-color);
-    margin-right: 76px;
 }
 
 .logo-spantwo {
@@ -185,7 +185,6 @@ body {
 .address-links {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 img {
