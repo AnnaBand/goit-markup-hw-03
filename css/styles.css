@@ -100,7 +100,7 @@ body {
 
 .logo-span {
     color: var(--dark-color);
-    padding-right: 76px;
+    margin-right: 76px;
 }
 
 .logo-spantwo {
@@ -163,20 +163,31 @@ body {
     background-color: var(--dark-color);
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
+.header {
     width: 1440px;
     border-bottom: 1px solid var(--accent-color);
-    padding: 0 156px;
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
 }
 
 .nav-container {
-    display: inline-flex;
-    gap: 40px;
+    display: flex;
+    align-items: center;
 }
 
-.address-container {
-    display: inline-flex;
+.nav-links,
+.address-links {
+    display: flex;
     gap: 40px;
+    padding: 24px 0;
+}
+
+img {
+    display: block;
 }
