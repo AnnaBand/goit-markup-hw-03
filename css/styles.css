@@ -14,18 +14,18 @@
 }
 
 body {
-   font-family: "Roboto", sans-serif;
-   color: var(--text-color);
-   background-color: var(--white-background-color);
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    background-color: var(--white-background-color);
 }
 
 .nav-links .link {
-        color: var(--dark-color);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-        padding: 24px 0;
+    color: var(--dark-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    padding: 24px 0;
 }
 
 .address-links .link {
@@ -58,28 +58,28 @@ body {
 
 .filter-button {
     background-color: var(--light-color);
-        color: var(--primary-brand-color);
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.64px;
+    color: var(--primary-brand-color);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
 }
 
 .filter-buttonone {
     background-color: var(--primary-brand-color);
-        color: var(--white-background-color);
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.64px;
-        display: block;
-        margin: 0 auto;
-        min-width: 169px;
-        height: 56px;
-        border: none;
-        border-radius: 4px;
+    color: var(--white-background-color);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .filter-button:hover,
@@ -115,7 +115,6 @@ body {
 
 .title-background {
     background-color: var(--dark-color);
-    width: 1440px;
     padding: 188px 0;
 }
 
@@ -144,6 +143,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    margin-bottom: 72px
 }
 
 .headerthree {
@@ -163,6 +163,8 @@ body {
 
 .card-background {
     background-color: var(--white-background-color);
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .footer-description {
@@ -174,23 +176,23 @@ body {
 
 .footer-background {
     background-color: var(--dark-color);
-    width: 1440px;
     padding: 100px 0;
 }
 
+/* 3 */
+
 .header {
-    width: 1440px;
     border-bottom: 1px solid var(--accent-color);
 }
 
 .container {
-    display: flex;
-}
-
-.header-container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.header-container {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -203,10 +205,6 @@ body {
 .address-links {
     display: flex;
     gap: 40px;
-}
-
-.sectionone-container {
-    flex-direction: column;
 }
 
 img {
@@ -226,24 +224,38 @@ img {
     overflow: hidden;
 }
 
-.sectiontwo {
+/* main */
+
+.sectiontwo,
+.sectionthree,
+.sectionfour {
     padding: 120px 0;
 }
 
-.sectiontwo-container {
-    width: 1158px;
-    margin: 0 auto;
-}
-
-.list-sectiontwo {
+.list-sectiontwo,
+.list-sectionthree,
+.list-sectionfour {
     display: flex;
     gap: 24px;
 }
 
-.headerthree-sectiontwo {
-    flex-basis: calc((100% - 72px) / 4)
+.li-sectiontwo {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
-.main {
-        width: 1440px;
+.li-sectrionthree {
+    flex-basis: calc((100% - 3 * 16px) / 3);
+}
+
+.worker {
+    padding: 32px 0;
+}
+
+.worker-headerthree {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.worker-description {
+    text-align: center;
 }
