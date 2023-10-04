@@ -95,10 +95,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+
 }
 
 .logo-span {
     color: var(--dark-color);
+    padding-right: 76px;
 }
 
 .logo-spantwo {
@@ -159,4 +161,22 @@ body {
 
 .footer-background {
     background-color: var(--dark-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    border-bottom: 1px solid var(--accent-color);
+    padding: 0 156px;
+}
+
+.nav-container {
+    display: inline-flex;
+    gap: 40px;
+}
+
+.address-container {
+    display: inline-flex;
+    gap: 40px;
 }
