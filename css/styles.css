@@ -176,6 +176,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    width: 264px;
 }
 
 .footer-background {
@@ -292,4 +293,9 @@ img {
     padding: 32px 16px;
     border: 1px solid var(--accent-color);
     border-top: none;
+}
+
+.footer-style {
+    display: inline-block;
+    margin-bottom: 16px;
 }
