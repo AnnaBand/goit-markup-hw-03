@@ -173,6 +173,7 @@ body {
 
 .footer-background {
     background-color: var(--dark-color);
+    padding: 100px 0;
 }
 
 .header {
