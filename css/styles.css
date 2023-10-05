@@ -46,6 +46,7 @@ body {
 
 .address {
     font-style: normal;
+    padding: 24px 0;
 }
 
 .link {
@@ -199,8 +200,6 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-container {
@@ -233,11 +232,11 @@ img {
 
 /* main */
 
-.sectiontwo {
-    padding: 120px 0 0 0;
+.sectionthree {
+    padding: 0 0 120px 0;
 }
 
-.sectionthree,
+.sectiontwo,
 .sectionfour {
     padding: 120px 0;
 }
