@@ -233,7 +233,10 @@ img {
 
 /* main */
 
-.sectiontwo,
+.sectiontwo {
+    padding: 120px 0 0 0;
+}
+
 .sectionthree,
 .sectionfour {
     padding: 120px 0;
